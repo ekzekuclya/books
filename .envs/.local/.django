@@ -1,0 +1,13 @@
+DEBUG=on
+SECRET_KEY=django-insecure-^oh_q&w@q9x=b*#711(^wug6rtvll!ys0)u=%@i^)83bav=+j#
+SQLITE_URL=sqlite:///my-local-sqlite.db
+DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+SQL_ENGINE=django.db.backends.postgresql_psycopg2
+
+SECRET_KEY='django-insecure-h$246gj(^k79fa$w8iq2r**)r19h@pj20k&tje&^yuh)my$kzs'
+EMAIL_API_KEY='414a7b63b89b4f1994571bbafcb56caa'
+IP_API_KEY='cfac0ef7914c483199d814e2a05dfdd4'
+
+# Celery settings
+CELERY_BROKER_URL="redis://redis:6379"
+CELERY_RESULT_BACKEND="redis://redis:6379"
